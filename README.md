@@ -52,6 +52,8 @@ All group members, paste the HTTPS url in your PyCharm IDE under the tab "Reposi
 
 Hit clone, and verify your able to access the repo. 
 
+In the repo at your  `if __name__ == '__main__':` statement, click the play button in the gutter. If your system did not automatically choose a python interpreter, it will allow you to do so. 
+
 
 ## Task Three - Our first commit and push - Resolving Merge Conflicts
 A commit is a record or bookmark representing some change (addition or deletion) of code. Generally, commits should be small bite-sized changes (no pun intended). Commits are local changes, that can be reversed (this is more advanced material). A collection of commits that is working as intended can be pushed (sent to the remote repository as an official change). 
