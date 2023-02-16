@@ -50,6 +50,8 @@ All group members, paste the HTTPS url in your PyCharm IDE under the tab "Reposi
 
 <img width="795" alt="paste url" src="https://user-images.githubusercontent.com/60828879/219484460-efde537e-c4b5-49e6-9810-b89bbd098814.png">
 
+Hit clone, and verify your able to access the repo. 
+
 
 ## Task Three - Our first commit and push - Resolving Merge Conflicts
 A commit is a record or bookmark representing some change (addition or deletion) of code. Generally, commits should be small bite-sized changes (no pun intended). Commits are local changes, that can be reversed (this is more advanced material). A collection of commits that is working as intended can be pushed (sent to the remote repository as an official change). 
