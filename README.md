@@ -8,7 +8,7 @@ The repository consists of 3 files, main.py, majors.py, and students.py. main.py
 
 In this tutorial, we will be using the PyCharm IDE by JetBrains to complete our tasks, if you do not already have pycharm community or pycharm professional installed, you can install the community version [here](https://www.jetbrains.com/pycharm/download/).
 
-**Group sizes for this tutorial should be around 3-5 students!**
+**Group sizes for this tutorial should be around 3-4 students!**
 
 ## Task One - Cloning the repository and adding collaborators
 For this first task, we need to first elect a group leader to host the repository on their account. The established group leader or host will clone this template repository to their account, and set the visibility to public. Once the repository is cloned, the host will add all group members to the repo via the "collaborators" tab in the repo settings. Once group members have accepted the invitation, they will be able to clone and modify the hosts template and commit/push their changes. 
