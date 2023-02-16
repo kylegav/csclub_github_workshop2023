@@ -49,6 +49,9 @@ def create_new_major(department_id: int, name: str, division: str) -> Major:
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     #Under this statement, interact with all the main.py functions, and work with creating new students, majors, and courses.
+    major_init()
+    student_init()
+    display_students()
 
 
 
