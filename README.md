@@ -16,11 +16,40 @@ For this first task, we need to first elect a group leader to host the repositor
 ## Task Two - Accessing our remote repository in PyCharm IDE
 For this task, we need to [generate access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) to our personal github account to access our remote repository within the IDE.
 
+When opening pycharm, you should see a landing screen. Click on "Get from VCS"
+<img width="800" alt="landing screen" src="https://user-images.githubusercontent.com/60828879/219482621-53f9e14a-1e50-40c8-a8c1-c74eab85cd35.png">
+
+
+Under GitHub click "Use Token" to login. 
+
 <img width="795" alt="get from version control" src="https://user-images.githubusercontent.com/60828879/219482231-98442530-7ed6-4d73-9922-e816815084bc.png">
+
+Click on Generate Token, this will open Github in your browser and automatically fill out the token generation parameters.
+
 <img width="797" alt="2generate token" src="https://user-images.githubusercontent.com/60828879/219482250-0f5cba5c-4297-43d8-89a3-8852912a05ab.png">
+
+Your screen should look like this in the browser.
+
 <img width="548" alt="3gen token" src="https://user-images.githubusercontent.com/60828879/219482288-241dc819-9618-4c01-8544-b22a66320f43.png">
+
+At the bottom of the screen, click generate. **Remember to COPY THE TOKEN CODE before leaving the page, you can only see this code once**
+
 <img width="676" alt="4copy token" src="https://user-images.githubusercontent.com/60828879/219482298-2ae96462-1d14-4e64-a2de-e2479463661b.png">
+
+Paste the Token code into PyCharm and hit Login. 
+
 <img width="795" alt="5 login" src="https://user-images.githubusercontent.com/60828879/219482324-c5dc7bce-2cd3-4522-b351-66e4067bd7af.png">
+
+At this point, **group leaders or repo hosters** distribute your HTTPS url for the repo to your group. You can find it under the "Code tab" on the repo main page. 
+
+
+<img width="992" alt="final step" src="https://user-images.githubusercontent.com/60828879/219484196-93ae3a34-e589-4a35-9487-4ddca060be4e.png">
+
+All group members, paste the HTTPS url in your PyCharm IDE under the tab "Repository URL" in the URL field. 
+
+
+<img width="795" alt="paste url" src="https://user-images.githubusercontent.com/60828879/219484460-efde537e-c4b5-49e6-9810-b89bbd098814.png">
+
 
 ## Task Three - Our first commit and push - Resolving Merge Conflicts
 A commit is a record or bookmark representing some change (addition or deletion) of code. Generally, commits should be small bite-sized changes (no pun intended). Commits are local changes, that can be reversed (this is more advanced material). A collection of commits that is working as intended can be pushed (sent to the remote repository as an official change). 
