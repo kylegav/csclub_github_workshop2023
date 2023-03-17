@@ -1,3 +1,4 @@
+
 from students import Student
 from majors import Major
 
@@ -14,13 +15,15 @@ def major_init():
     nursing = Major(701621,"Nursing Science","College of Nursing and Public Health")
     list_of_majors.extend([csci, info, engr, bizz_admin, nursing])
 
+
 def student_init():
     stud1 = Student(10574211,"Jameel","Bryce",24, list_of_majors[0])
     stud2 = Student(10521823,"Stephon","Fonrose", 25, list_of_majors[0])
     stud3 = Student(10615734,"Nick","Rose", 22, list_of_majors[1])
     stud4 = Student(10633211, "Dorian","Freeman", 26, list_of_majors[3])
     stud5 = Student(10655321,"Mary","Jones", 21, list_of_majors[4])
-    list_of_active_students.extend([stud1,stud2,stud3,stud4,stud5])
+    stud6 = Student(10675421,"Kyle","gavin",22, list_of_majors[0])
+    list_of_active_students.extend([stud1,stud2,stud3,stud4,stud5,stud6])
 
 
 #These functions will display the Objects using the __str__ print format defined in the object class
